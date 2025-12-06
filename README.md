@@ -164,6 +164,7 @@ All inference happens **locally** using the embedded ONNX model.
       <img src="https://skillicons.dev/icons?i=linkedin" width="22" />
     </a>
   </span>
+  <br>
   <span>
     <b>Debabrata Kuiry</b> &nbsp;
     <a href="https://github.com/cyrax3589" target="_blank">
@@ -173,6 +174,7 @@ All inference happens **locally** using the embedded ONNX model.
       <img src="https://skillicons.dev/icons?i=linkedin" width="22" />
     </a>
   </span>
+  <br>
   <span>
     <b>B Chiru Vaibhav</b> &nbsp;
     <a href="https://github.com/Vaibhav5012" target="_blank">
