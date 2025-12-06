@@ -38,7 +38,7 @@ The system runs entirely on-device, requires **no internet**, and is distributed
 
 ### 🏗️ Parallel Encoder (Swin Transformer + U-Net)  
 <p align="center">
-  <img width="1024" height="1024" alt="SYS arch nobg" src="https://github.com/user-attachments/assets/e49c9bcb-e666-4a8c-9a0b-a92543b8c0c1" />
+  <img width="1024" height="1024" alt="SYS arch nobg" src="https://github.com/user-attachments/assets/b7bb81d2-57c4-4d18-8ef8-2b648eed0ffa" />
 </p>
 
 ---
