@@ -73,7 +73,7 @@ The application processes dermoscopic images locally and provides:
 
 ---
 
-## 🛠 Installation Guide
+## 🛠 Installation Guide (Windows OS)
 
 ### 🔹 1. Create Virtual Environment
 python -m venv venv
