@@ -105,10 +105,14 @@ All computations are performed **locally** using the embedded ONNX model.
 ## 📊 Results
 
 ### 📈 Confusion Matrix  
-*(Insert confusion matrix image here when available)*
+<img width="800" height="600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/d701ac5c-2600-43d7-924a-83ea0babfcf6" />
 
-### 📉 Training Curves  
-*(Insert training curves image here when available)*
+
+### 📉 Training Curves 
+- Training History
+  <img width="2250" height="750" alt="training_history" src="https://github.com/user-attachments/assets/20a102a6-ea6f-404a-9e83-84fce718bb35" />
+- FineTune Curves
+  <img width="1200" height="500" alt="finetune_curves" src="https://github.com/user-attachments/assets/d78a8370-f30e-4298-a537-c1d115872ceb" />
 
 ---
 
