@@ -117,40 +117,47 @@ All computations are performed **locally** using the embedded ONNX model.
 <p align="center">
 
   <!-- Anagha -->
-  <b>Anagha P Kulkarni</b>
-  &nbsp;
-  <a href="https://github.com/ANAGHA_GITHUB_LINK" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" width="26" />
-  </a>
-  <a href="https://www.linkedin.com/in/ANAGHA_LINKEDIN_LINK" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="26" />
-  </a>
+  <span>
+    <b>Anagha P Kulkarni</b>
+    &nbsp;
+    <a href="https://github.com/Anu-253" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" width="22" />
+    </a>
+    <a href="https://www.linkedin.com/in/anagha-p-kulkarni-723498341/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" width="22" />
+    </a>
+  </span>
 
-  <br/><br/>
+  <br/>
 
   <!-- Debabrata -->
-  <b>Debabrata Kuiry</b>
-  &nbsp;
-  <a href="https://github.com/cyrax3589" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" width="26" />
-  </a>
-  <a href="https://www.linkedin.com/in/debabrata-kuiry/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="26" />
-  </a>
+  <span>
+    <b>Debabrata Kuiry</b>
+    &nbsp;
+    <a href="https://github.com/cyrax3589" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" width="22" />
+    </a>
+    <a href="https://www.linkedin.com/in/debabrata-kuiry/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" width="22" />
+    </a>
+  </span>
 
-  <br/><br/>
+  <br/>
 
   <!-- Vaibhav -->
-  <b>B Chiru Vaibhav</b>
-  &nbsp;
-  <a href="https://github.com/Vaibhav5012" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" width="26" />
-  </a>
-  <a href="https://www.linkedin.com/in/bchiruvaibhav/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="26" />
-  </a>
+  <span>
+    <b>B Chiru Vaibhav</b>
+    &nbsp;
+    <a href="https://github.com/Vaibhav5012" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" width="22" />
+    </a>
+    <a href="https://www.linkedin.com/in/bchiruvaibhav/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" width="22" />
+    </a>
+  </span>
 
 </p>
+
 
 
 ---
