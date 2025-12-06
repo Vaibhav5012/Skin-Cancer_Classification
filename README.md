@@ -157,30 +157,30 @@ All inference happens **locally** using the embedded ONNX model.
 
   <span>
     <b>Anagha P Kulkarni</b> &nbsp;
-    <a href="https://github.com/Anu-253" target="_blank">
+    <a href="https://github.com/Anu-253" target="_blank" rel="noopener noreferrer">
       <img src="https://skillicons.dev/icons?i=github" width="22" />
     </a>
-    <a href="https://www.linkedin.com/in/anagha-p-kulkarni-723498341/" target="_blank">
+    <a href="https://www.linkedin.com/in/anagha-p-kulkarni-723498341/" target="_blank" rel="noopener noreferrer">
       <img src="https://skillicons.dev/icons?i=linkedin" width="22" />
     </a>
   </span>
   <br>
   <span>
     <b>Debabrata Kuiry</b> &nbsp;
-    <a href="https://github.com/cyrax3589" target="_blank">
+    <a href="https://github.com/cyrax3589" target="_blank" rel="noopener noreferrer">
       <img src="https://skillicons.dev/icons?i=github" width="22" />
     </a>
-    <a href="https://www.linkedin.com/in/debabrata-kuiry/" target="_blank">
+    <a href="https://www.linkedin.com/in/debabrata-kuiry/" target="_blank" rel="noopener noreferrer">
       <img src="https://skillicons.dev/icons?i=linkedin" width="22" />
     </a>
   </span>
   <br>
   <span>
     <b>B Chiru Vaibhav</b> &nbsp;
-    <a href="https://github.com/Vaibhav5012" target="_blank">
+    <a href="https://github.com/Vaibhav5012" target="_blank" rel="noopener noreferrer">
       <img src="https://skillicons.dev/icons?i=github" width="22" />
     </a>
-    <a href="https://www.linkedin.com/in/bchiruvaibhav/" target="_blank">
+    <a href="https://www.linkedin.com/in/bchiruvaibhav/" target="_blank" rel="noopener noreferrer">
       <img src="https://skillicons.dev/icons?i=linkedin" width="22" />
     </a>
   </span>
