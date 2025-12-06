@@ -1,4 +1,4 @@
-﻿<Window x:Class="ECLIPSE_V3.MainWindow"
+﻿<Window x:Class="ECLIPSE.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"

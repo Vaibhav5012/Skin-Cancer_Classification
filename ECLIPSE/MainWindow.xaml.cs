@@ -15,7 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 
-namespace ECLIPSE_V3
+namespace ECLIPSE
 {
     public class PredictionItem
     {

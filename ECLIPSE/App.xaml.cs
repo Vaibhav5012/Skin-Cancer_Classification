@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ECLIPSE_V3
+namespace ECLIPSE
 {
     public partial class App : Application
     {
