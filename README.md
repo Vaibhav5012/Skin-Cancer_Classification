@@ -33,7 +33,7 @@ The system runs entirely on-device, requires **no internet**, and is distributed
 
 ### 🔄 Workflow  
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c803fde4-61f3-414c-933a-fdeed9c706f9" alt="Workflow Diagram" width="90%">
+  <img width="1536" height="238" alt="Workflow Diag 2" src="https://github.com/user-attachments/assets/b8329502-5e46-4daa-a269-71bdbe7ec279" />
 </p>
 
 ### 🏗️ Parallel Encoder (Swin Transformer + U-Net)  
