@@ -114,7 +114,7 @@ All computations are performed **locally** using the embedded ONNX model.
 
 ## 👥 Contributors
 
-<p align="center">
+<p align="left">
 
   <!-- Anagha -->
   <span>
