@@ -76,7 +76,7 @@ The system runs entirely on-device, requires **no internet**, and is distributed
 
 ## 📥 Installation (MSI)
 
-1. Download **`ECLIPSE_Setup.msi`**
+1. Download **`ECLIPSE v1.0.0.msi`**
 2. Run the installer  
 3. Follow the setup wizard  
 4. Launch the application from:  
