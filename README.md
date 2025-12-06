@@ -1,9 +1,9 @@
 <!-- PROJECT BANNER -->
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/eef4e5b6-6f58-4bb3-9614-e39d7bd3c6e7" alt="Project Banner" width="50%">
+  <img src="https://github.com/user-attachments/assets/eef4e5b6-6f58-4bb3-9614-e39d7bd3c6e7" alt="Project Banner" width="55%">
 </p>
 
-<h1 align="center">ECLIPSE – Offline Skin Lesion Classification</h1>
+<h1 align="center">✨ ECLIPSE – Offline Skin Lesion Classification</h1>
 
 <p align="center">
   <b>Fully Offline · Standalone MSI Installer · Parallel Swin Encoder</b>
@@ -21,11 +21,15 @@
 
 ## 🚀 Overview
 
-**ECLIPSE** is a **standalone**, **fully offline** skin lesion classification system built using a hybrid  
-**Swin Transformer + U-Net parallel encoder** architecture.
+**ECLIPSE** is a **standalone, fully offline** skin lesion classification system built using a  
+**Parallel Swin Transformer + U-Net encoder architecture**, deployed as a **Windows MSI installer**.
 
-The system runs entirely on-device, requires **no internet**, and is distributed through a  
-**Windows MSI installer** for effortless installation and deployment.
+It runs entirely on-device, ensuring:
+
+- 🔒 Complete data privacy  
+- ⚡ Fast processing  
+- 🌐 Zero internet dependency  
+- 🖥️ Seamless deployment on any Windows machine  
 
 ---
 
@@ -33,12 +37,16 @@ The system runs entirely on-device, requires **no internet**, and is distributed
 
 ### 🔄 Workflow  
 <p align="center">
-  <img width="1270" height="196" alt="Workflow Diag 2 nobg" src="https://github.com/user-attachments/assets/4a4e640c-9d29-4d2b-8856-f7c8992ae9fa" />
+  <img src="https://github.com/user-attachments/assets/4a4e640c-9d29-4d2b-8856-f7c8992ae9fa" 
+       alt="Workflow Diagram"
+       style="max-width: 90%; border-radius: 12px;">
 </p>
 
-### 🏗️ Parallel Encoder (Swin Transformer + U-Net)  
+### 🏗️ Parallel Encoder — Swin Transformer + U-Net  
 <p align="center">
-  <img width="1024" height="1024" alt="SYS arch nobg" src="https://github.com/user-attachments/assets/b7bb81d2-57c4-4d18-8ef8-2b648eed0ffa" />
+  <img src="https://github.com/user-attachments/assets/b7bb81d2-57c4-4d18-8ef8-2b648eed0ffa" 
+       alt="System Architecture" 
+       style="max-width: 75%; border-radius: 12px;">
 </p>
 
 ---
@@ -47,17 +55,26 @@ The system runs entirely on-device, requires **no internet**, and is distributed
 
 ### 🖼️ Input View  
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bec33f01-50ac-44fa-b243-e86f92bffe86" alt="Input View" width="45%">
+  <img src="https://github.com/user-attachments/assets/bec33f01-50ac-44fa-b243-e86f92bffe86" 
+       alt="Input View" 
+       width="45%" 
+       style="border-radius: 12px;">
 </p>
 
 ### 📟 Prediction Output  
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bd69d7d7-66a8-4f26-8790-2b68dc45b446" alt="Prediction Output" width="90%">
+  <img src="https://github.com/user-attachments/assets/bd69d7d7-66a8-4f26-8790-2b68dc45b446" 
+       alt="Prediction Output" 
+       width="90%" 
+       style="border-radius: 12px;">
 </p>
 
 ### 🔍 Classification UI  
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b1cc3b32-22e6-4e0a-997f-feb44714d553" alt="Classification UI" width="75%">
+  <img src="https://github.com/user-attachments/assets/b1cc3b32-22e6-4e0a-997f-feb44714d553" 
+       alt="Classification UI" 
+       width="75%" 
+       style="border-radius: 12px;">
 </p>
 
 ---
@@ -65,12 +82,12 @@ The system runs entirely on-device, requires **no internet**, and is distributed
 ## ⭐ Features
 
 - 🔌 **100% Offline** — No cloud, no external API calls  
-- 📦 **MSI Installer** for easy Windows deployment  
-- 🧠 ONNX model for real-time local inference  
+- 📦 Distributed as a **Windows MSI Installer**  
+- 🧠 ONNX Runtime for fast, local inference  
 - 🎯 Benign / Malignant classification with confidence %  
 - 📊 Optional CSV export  
-- 🔒 All user data stays **private and local**  
-- 🖥️ Clean, intuitive **WPF UI**  
+- 🔒 Guaranteed privacy — images never leave the device  
+- 🖥️ Clean and intuitive WPF interface  
 
 ---
 
@@ -79,10 +96,10 @@ The system runs entirely on-device, requires **no internet**, and is distributed
 1. Download **`ECLIPSE v1.0.0.msi`**
 2. Run the installer  
 3. Follow the setup wizard  
-4. Launch the application from:  
+4. Launch via:  
    **Start Menu → ECLIPSE – Skin Lesion Classifier**
 
-✔ No dependencies  
+✔ No dependencies required  
 ✔ No internet required  
 ✔ Works instantly after installation  
 
@@ -90,29 +107,47 @@ The system runs entirely on-device, requires **no internet**, and is distributed
 
 ## 📘 Usage
 
-1. Open the **ECLIPSE** application  
-2. Click **Browse** to select a dermoscopic image  
+1. Open **ECLIPSE**  
+2. Click **Browse** and select a dermoscopic image  
 3. Click **Predict**  
 4. View:
-   - Classification (Benign / Malignant)  
-   - Confidence percentage  
-5. (Optional) Export results to CSV
+   - Benign / Malignant classification  
+   - Confidence score  
+5. (Optional) Export results as CSV
 
-All computations are performed **locally** using the embedded ONNX model.
+All inference happens **locally** using the embedded ONNX model.
 
 ---
 
 ## 📊 Results
 
 ### 📈 Confusion Matrix  
-<img width="800" height="600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/d701ac5c-2600-43d7-924a-83ea0babfcf6" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d701ac5c-2600-43d7-924a-83ea0babfcf6" 
+       alt="Confusion Matrix"
+       width="70%"
+       style="border-radius: 12px;">
+</p>
 
+---
 
-### 📉 Training Curves 
-- Training History
-  <img width="2250" height="750" alt="training_history" src="https://github.com/user-attachments/assets/20a102a6-ea6f-404a-9e83-84fce718bb35" />
-- FineTune Curves
-  <img width="1200" height="500" alt="finetune_curves" src="https://github.com/user-attachments/assets/d78a8370-f30e-4298-a537-c1d115872ceb" />
+## 📉 Training Curves
+
+### 🔹 Training History  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/20a102a6-ea6f-404a-9e83-84fce718bb35" 
+       alt="Training History"
+       width="95%"
+       style="border-radius: 12px;">
+</p>
+
+### 🔹 Fine-Tune Curves  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d78a8370-f30e-4298-a537-c1d115872ceb" 
+       alt="Fine Tune Curves"
+       width="75%"
+       style="border-radius: 12px;">
+</p>
 
 ---
 
@@ -120,10 +155,8 @@ All computations are performed **locally** using the embedded ONNX model.
 
 <p align="left">
 
-  <!-- Anagha -->
   <span>
-    <b>Anagha P Kulkarni</b>
-    &nbsp;
+    <b>Anagha P Kulkarni</b> &nbsp;
     <a href="https://github.com/Anu-253" target="_blank">
       <img src="https://skillicons.dev/icons?i=github" width="22" />
     </a>
@@ -132,12 +165,10 @@ All computations are performed **locally** using the embedded ONNX model.
     </a>
   </span>
 
-  <br/>
+  <br/><br/>
 
-  <!-- Debabrata -->
   <span>
-    <b>Debabrata Kuiry</b>
-    &nbsp;
+    <b>Debabrata Kuiry</b> &nbsp;
     <a href="https://github.com/cyrax3589" target="_blank">
       <img src="https://skillicons.dev/icons?i=github" width="22" />
     </a>
@@ -146,12 +177,10 @@ All computations are performed **locally** using the embedded ONNX model.
     </a>
   </span>
 
-  <br/>
+  <br/><br/>
 
-  <!-- Vaibhav -->
   <span>
-    <b>B Chiru Vaibhav</b>
-    &nbsp;
+    <b>B Chiru Vaibhav</b> &nbsp;
     <a href="https://github.com/Vaibhav5012" target="_blank">
       <img src="https://skillicons.dev/icons?i=github" width="22" />
     </a>
@@ -161,8 +190,6 @@ All computations are performed **locally** using the embedded ONNX model.
   </span>
 
 </p>
-
-
 
 ---
 
