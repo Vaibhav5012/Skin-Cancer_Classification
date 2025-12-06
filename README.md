@@ -3,7 +3,6 @@
   <img src="https://github.com/user-attachments/assets/eef4e5b6-6f58-4bb3-9614-e39d7bd3c6e7" alt="Project Banner" width="50%">
 </p>
 
-
 <h1 align="center">ECLIPSE – Offline Skin Lesion Classification</h1>
 
 <p align="center">
@@ -22,76 +21,107 @@
 
 ## 🚀 Overview
 
-**ECLIPSE** is a **standalone**, **fully offline** skin lesion classification system combining  
-**Swin Transformer + U-Net** through a parallel encoder architecture.
+**ECLIPSE** is a **standalone**, **fully offline** skin lesion classification system built using a hybrid  
+**Swin Transformer + U-Net parallel encoder** architecture.
 
-The application runs **locally**, requires **no internet**, and is packaged as a  
-**Windows MSI installer** for seamless installation on any device.
+The system runs entirely on-device, requires **no internet**, and is distributed through a  
+**Windows MSI installer** for effortless installation and deployment.
 
 ---
 
 ## 🧠 System Architecture
 
 ### 🔄 Workflow  
-<img width="1000" height="212" alt="Workflow Diag" src="https://github.com/user-attachments/assets/c803fde4-61f3-414c-933a-fdeed9c706f9" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c803fde4-61f3-414c-933a-fdeed9c706f9" alt="Workflow Diagram" width="90%">
+</p>
 
 ### 🏗️ Parallel Encoder (Swin Transformer + U-Net)  
-<img width="1024" height="1024" alt="SYS arch nobg" src="https://github.com/user-attachments/assets/704ebf80-6271-42bb-911c-103877aa3b52" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/704ebf80-6271-42bb-911c-103877aa3b52" alt="Parallel Encoder Architecture" width="70%">
+</p>
 
 ---
 
 ## 💻 Application Screenshots
 
-### Input View  
-<img width="568" height="739" alt="input" src="https://github.com/user-attachments/assets/bec33f01-50ac-44fa-b243-e86f92bffe86" />
+### 🖼️ Input View  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bec33f01-50ac-44fa-b243-e86f92bffe86" alt="Input View" width="45%">
+</p>
 
+### 📟 Prediction Output  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bd69d7d7-66a8-4f26-8790-2b68dc45b446" alt="Prediction Output" width="90%">
+</p>
 
-### Prediction Output  
-<img width="1919" height="1015" alt="App testing" src="https://github.com/user-attachments/assets/bd69d7d7-66a8-4f26-8790-2b68dc45b446" />
-
-
-### Classification UI  
-<img width="1275" height="745" alt="output" src="https://github.com/user-attachments/assets/b1cc3b32-22e6-4e0a-997f-feb44714d553" />
+### 🔍 Classification UI  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b1cc3b32-22e6-4e0a-997f-feb44714d553" alt="Classification UI" width="75%">
+</p>
 
 ---
 
 ## ⭐ Features
 
-- 🔌 **100% Offline** — no cloud, no API calls, no data leaves device  
-- 📦 **MSI Installer** — install like a standard Windows application  
-- 🧠 ONNX model loaded locally for instant inference  
+- 🔌 **100% Offline** — No cloud, no external API calls  
+- 📦 **MSI Installer** for easy Windows deployment  
+- 🧠 ONNX model for real-time local inference  
 - 🎯 Benign / Malignant classification with confidence %  
 - 📊 Optional CSV export  
-- 🔒 User images stay **secure & local**  
-- 🖥️ Clean and simple WPF UI  
+- 🔒 All user data stays **private and local**  
+- 🖥️ Clean, intuitive **WPF UI**  
 
 ---
 
 ## 📥 Installation (MSI)
 
-1. Download **`ECLIPSE_Setup.msi`**  
+1. Download **`ECLIPSE_Setup.msi`**
 2. Run the installer  
-3. Follow the installation wizard  
-4. Launch the app from:  
+3. Follow the setup wizard  
+4. Launch the application from:  
    **Start Menu → ECLIPSE – Skin Lesion Classifier**
 
-_No dependencies required. No internet needed._
+✔ No dependencies  
+✔ No internet required  
+✔ Works instantly after installation  
 
 ---
 
 ## 📘 Usage
 
-1. Open the ECLIPSE app  
-2. Click **Browse** → Select dermoscopic image  
+1. Open the **ECLIPSE** application  
+2. Click **Browse** to select a dermoscopic image  
 3. Click **Predict**  
-4. View:  
-   - Classification result (Benign/Malignant)  
+4. View:
+   - Classification (Benign / Malignant)  
    - Confidence percentage  
-5. Export results (optional)
+5. (Optional) Export results to CSV
 
-All computations are handled **on-device** using the embedded ONNX model.
+All computations are performed **locally** using the embedded ONNX model.
 
 ---
 
+## 📊 Results
+
+### 📈 Confusion Matrix  
+*(Insert confusion matrix image here when available)*
+
+### 📉 Training Curves  
+*(Insert training curves image here when available)*
+
+---
+
+## 👥 Contributors
+
+- **Anagha P Kulkarni** – 1AH23CS012  
+- **Debabrata Kuiry** – 1AH23CS032  
+- **B Chiru Vaibhav** – 1AH23CS021  
+
+---
+
+## 📄 License
+
+Academic use only.
+
+---
