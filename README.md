@@ -1,8 +1,9 @@
 <!-- PROJECT BANNER -->
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5deffe11-4e7c-4bee-8e53-9e5841f5e330" alt="Project Banner" width="80%">
+  <img src="https://github.com/user-attachments/assets/eef4e5b6-6f58-4bb3-9614-e39d7bd3c6e7" alt="Project Banner" width="80%">
 
 </p>
+
 
 <h1 align="center">ECLIPSE – Offline Skin Lesion Classification</h1>
 
