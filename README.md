@@ -33,23 +33,27 @@ The application runs **locally**, requires **no internet**, and is packaged as a
 ## 🧠 System Architecture
 
 ### 🔄 Workflow  
-![Workflow](assets/workflow.png)
+<img width="1000" height="212" alt="Workflow Diag" src="https://github.com/user-attachments/assets/c803fde4-61f3-414c-933a-fdeed9c706f9" />
+
 
 ### 🏗️ Parallel Encoder (Swin Transformer + U-Net)  
-![Parallel Encoder](assets/parallel-encoder.png)
+<img width="1024" height="1024" alt="SYS arch nobg" src="https://github.com/user-attachments/assets/704ebf80-6271-42bb-911c-103877aa3b52" />
+
 
 ---
 
 ## 💻 Application Screenshots
 
 ### Input View  
-![Input View](assets/input-view.png)
+<img width="568" height="739" alt="input" src="https://github.com/user-attachments/assets/bec33f01-50ac-44fa-b243-e86f92bffe86" />
+
 
 ### Prediction Output  
-![Output View](assets/output-visualisation.png)
+<img width="1919" height="1015" alt="App testing" src="https://github.com/user-attachments/assets/bd69d7d7-66a8-4f26-8790-2b68dc45b446" />
+
 
 ### Classification UI  
-![Classification UI](assets/classification-ui.png)
+<img width="1275" height="745" alt="output" src="https://github.com/user-attachments/assets/b1cc3b32-22e6-4e0a-997f-feb44714d553" />
 
 ---
 
@@ -91,16 +95,3 @@ All computations are handled **on-device** using the embedded ONNX model.
 
 ---
 
-## 📂 Project Structure
-
-```text
-.
-├── installer/
-│   └── ECLIPSE_Setup.msi
-├── models/
-│   └── model_final.onnx
-├── src/
-│   ├── training/            # Python training pipeline
-│   └── ECLIPSE.App/         # Offline WPF application
-├── assets/                  # Images, diagrams, screenshots
-└── README.md
