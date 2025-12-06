@@ -117,37 +117,38 @@ All computations are performed **locally** using the embedded ONNX model.
 <p align="center">
 
   <!-- Anagha -->
-  <a href="https://github.com/ANAGHA_GITHUB_LINK" target="_blank" style="margin-right: 20px;">
+  <b>Anagha P Kulkarni</b>
+  &nbsp;
+  <a href="https://github.com/ANAGHA_GITHUB_LINK" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" width="26" />
   </a>
   <a href="https://www.linkedin.com/in/ANAGHA_LINKEDIN_LINK" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="26"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" width="26" />
   </a>
-  <br/>
-  <b>Anagha P Kulkarni</b>
+
   <br/><br/>
 
   <!-- Debabrata -->
-  <a href="https://github.com/cyrax3589" target="_blank" style="margin-right: 20px;">
+  <b>Debabrata Kuiry</b>
+  &nbsp;
+  <a href="https://github.com/cyrax3589" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" width="26" />
   </a>
   <a href="https://www.linkedin.com/in/debabrata-kuiry/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="26"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" width="26" />
   </a>
-  <br/>
-  <b>Debabrata Kuiry</b>
+
   <br/><br/>
 
   <!-- Vaibhav -->
-  <a href="https://github.com/Vaibhav5012" target="_blank" style="margin-right: 20px;">
+  <b>B Chiru Vaibhav</b>
+  &nbsp;
+  <a href="https://github.com/Vaibhav5012" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" width="26" />
   </a>
   <a href="https://www.linkedin.com/in/bchiruvaibhav/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="26"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" width="26" />
   </a>
-  <br/>
-  <b>B Chiru Vaibhav</b>
-  <br/><br/>
 
 </p>
 
