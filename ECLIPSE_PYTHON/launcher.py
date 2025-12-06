@@ -8,7 +8,7 @@ from main import EclipseApp  # DO NOT change this
 class WelcomeScreen:
     def __init__(self, root):
         self.root = root
-        self.root.title("ECLIPSE — Illuminating Skin Health Through AI")
+        self.root.title("ECLIPSE — Skin Lesion Analyzer")
         self.root.geometry("1200x820")
         self.root.configure(bg="#1a0736")
         self.root.attributes("-alpha", 0.0)

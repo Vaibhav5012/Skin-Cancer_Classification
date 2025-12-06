@@ -5,7 +5,7 @@ print("\n=== STARTING MODEL INSPECTION ===")
 
 try:
     print("\nLoading model...")
-    model = tf.keras.models.load_model("models/densenet169_unet_final.h5", compile=False)
+    model = tf.keras.models.load_model("model_path", compile=False)
     print("\nMODEL LOADED SUCCESSFULLY!")
 
     print("\n=== MODEL INPUT SHAPE ===")

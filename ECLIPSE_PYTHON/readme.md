@@ -1,153 +1,90 @@
-# 🌟 ECLIPSE — Skin Lesion Classifier
-
-Standalone Windows application for skin-lesion classification using DenseNet169 + custom preprocessing pipeline.
-The system analyzes dermoscopic images and predicts the probability distribution across 7 major skin cancer types, along with visual explanations and confidence metrics.
-
 ## 📌 Overview
 
-Skin cancer is one of the fastest-growing cancers globally, and early detection is crucial.
-ECLIPSE provides a fast, offline, and easy-to-use diagnostic support tool built using:
+Skin cancer is one of the fastest-growing cancers globally, and early detection is crucial.  
+**ECLIPSE (Python Edition)** is a fast, fully offline diagnostic support tool built with:
 
-Python
+- **Python**
+- **CustomTkinter** (Modern desktop UI)
+- **Hybrid deep-learning model (ONNX Runtime)**
+- **Matplotlib** for visual analytics
 
-Tkinter (CustomTkinter UI)
+The application processes dermoscopic images locally and provides:
 
-DenseNet169 deep learning model
+- Top predicted class  
+- Full probability distribution  
+- Donut chart visualization  
+- Computation logs  
+- Optional Grad-CAM heatmap
 
-ONNX for optimized inference
-
-Matplotlib for visual analytics
-
-The app processes an image, performs model inference locally, and displays:
-
-Top predicted class
-
-Confidence distribution
-
-Donut chart visualization
-
-Log of every computation step
-
-Optional heatmap view
-
-## 🧠 Model & Classes
-Model Used
-
-DenseNet169
-
-Pretrained on ImageNet
-
-Fine-tuned using dermoscopic image datasets
-
-Input size: 224 × 224 px
-
-Output: 7-class softmax probability vector
-
-Classification Labels
-Abbreviation	Full Name
-akiec	Actinic Keratoses / Bowen’s Disease
-bcc	Basal Cell Carcinoma
-bkl	Benign Keratosis-like Lesions
-df	Dermatofibroma
-mel	Melanoma
-nv	Melanocytic Nevi
-vasc	Vascular Lesions
-
-These follow standard ISIC dataset categories.
+---
 
 ## ✨ Features
-✔ Offline Desktop App (No Internet Required)
 
-Fully local inference using ONNX — data remains private.
+### ✔ Fully Offline Desktop App
+- 100% local inference using **ONNX Runtime**  
+- No internet needed — complete privacy
 
-✔ Real-Time Prediction
+### ✔ Real-Time Predictions
+- Displays top class + 7-class probability vector  
+- Instant model inference
 
-Shows a full probability breakdown across 7 classes.
+### ✔ Visual Analytics
+- Horizontal bar chart (confidence distribution)  
+- Donut chart representation  
+- Live computation logs
 
-✔ Visual Analytics
+### ✔ Heatmap Mode (Optional)
+- Grad-CAM based heatmaps to visualize attention regions
 
-Horizontal bar chart (confidence %)
+### ✔ Export Options
+- Export predictions as **CSV**  
+- Save complete logs as **PDF**
 
-Donut chart of predictions
+### ✔ Modern UI
+- Built using **CustomTkinter**  
+- Clean teal-themed interface  
 
-Live logs of the entire process pipeline
-
-✔ Heatmap Mode
-
-Highlights attention regions if Grad-CAM is enabled (optional).
-
-✔ Export Options
-
-Export predictions as CSV
-
-Save full logs as PDF
-
-✔ Clean, Modern UI
-
-Built using CustomTkinter with teal-themed aesthetics.
+---
 
 ## 🚀 How It Works
 
-User uploads a dermoscopic image
+1. User uploads a dermoscopic image  
+2. Image is preprocessed  
+   - Resize  
+   - Normalize  
+3. Tensor is fed to the ONNX model  
+4. Model outputs a **7-class probability vector**  
+5. UI displays:  
+   - Predicted class  
+   - Confidence distribution  
+   - Donut/pie chart  
+   - Operation logs  
+   - Optional heatmap  
 
-Image is preprocessed (resize → normalize)
-
-Tensor is passed to the DenseNet169 ONNX model
-
-Model outputs a 7-dimensional probability vector
-
-UI displays:
-
-Top predicted class
-
-Full distribution
-
-Pie chart
-
-Log details
+---
 
 ## 📸 Application Interface
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6bcff941-bc06-406f-b45c-0aa37a3b4c79"
+       alt="App Interface"
+       style="max-width: 90%; border-radius: 10px;">
+</p>
 
-<img width="1362" height="723" alt="image" src="https://github.com/user-attachments/assets/6bcff941-bc06-406f-b45c-0aa37a3b4c79" />
-
+---
 
 ## 🛠 Installation Guide
-🔹 1. Create a Virtual Environment
+
+### 🔹 1. Create Virtual Environment
 python -m venv venv
 
-🔹 2. Activate the Environment
-
-Windows:
-
+### 🔹 2. Activate Environment
 venv\Scripts\activate
 
-🔹 3. Install Requirements
+### 🔹 3. Install Dependencies
 pip install -r requirements.txt
 
-🔹 4. Run the App
+
+### 🔹 4. Run the Application
 python main.py
 
-## 📂 Repository Structure
-ECLIPSE_PYTHON/
-│── assets/
-│── models/
-│   ├── densenet169_unet_final.h5
-│   ├── final.onnx
-│── main.py
-│── launcher.py
-│── inspect_model.py
-│── README.md
-│── requirements.txt
-
-## Team
-
-Anagha P Kulkarni
-
-Debabrata Kuiry
-
-B Chiru Vaibhav
-
-## 📄 License
-
-Distributed under the MIT License.
