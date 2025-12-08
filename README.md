@@ -188,6 +188,10 @@ All inference happens **locally** using the embedded ONNX model.
 
 ---
 
+Dataset used: https://www.kaggle.com/datasets/vinline/unified-dataset-for-skin-cancer-classification
+
+---
+
 ## 📄 License
 
 Academic use only.
