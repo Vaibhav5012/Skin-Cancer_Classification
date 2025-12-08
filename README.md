@@ -6,7 +6,7 @@
 <h1 align="center">✨ ECLIPSE – Offline Skin Lesion Classification</h1>
 
 <p align="center">
-  <b>Fully Offline · Standalone MSI Installer · Parallel Swin Encoder</b>
+  <b>Fully Offline · Standalone MSI Installer · Parallel Swin Encoder . DenseNet-169</b>
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 ## 🚀 Overview
 
 **ECLIPSE** is a **standalone, fully offline** skin lesion classification system built using a  
-**DenseNet-169 + U-Net encoder architecture**, deployed as a **Windows MSI installer**.
+**Swin Transformer + DenseNet-169 + U-Net encoder architecture**, deployed as a **Windows MSI installer**.
 
 It runs entirely on-device, ensuring:
 
