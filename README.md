@@ -42,9 +42,9 @@ It runs entirely on-device, ensuring:
        style="max-width: 90%; border-radius: 12px;">
 </p>
 
-### 🏗️ Parallel Encoder — Swin Transformer + U-Net  
+### 🏗️ Parallel Encoder — DenseNet-169 + U-Net  
 <p align="center">
-  <img width="2048" height="2048" alt="Gemini_Generated_Image_22vc1p22vc1p22vc" src="https://github.com/user-attachments/assets/8c091f3a-efef-4a5b-972c-0298f2638ba4" />
+<img width="2048" height="2048" alt="Gemini_Generated_Image_22vc1p22vc1p22vc" src="https://github.com/user-attachments/assets/d97228eb-2bf6-4894-b13a-ea9e27b380bb" />
 
   <img src="https://github.com/user-attachments/assets/b7bb81d2-57c4-4d18-8ef8-2b648eed0ffa" 
        alt="System Architecture" 
