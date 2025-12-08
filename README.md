@@ -22,7 +22,7 @@
 ## 🚀 Overview
 
 **ECLIPSE** is a **standalone, fully offline** skin lesion classification system built using a  
-**Parallel Swin Transformer + U-Net encoder architecture**, deployed as a **Windows MSI installer**.
+**DenseNet-169 + U-Net encoder architecture**, deployed as a **Windows MSI installer**.
 
 It runs entirely on-device, ensuring:
 
