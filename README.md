@@ -188,7 +188,8 @@ All inference happens **locally** using the embedded ONNX model.
 
 ---
 
-Dataset used: https://www.kaggle.com/datasets/vinline/unified-dataset-for-skin-cancer-classification
+Dataset used: [Unified Dataset for Skin Cancer Classification on Kaggle](https://www.kaggle.com/datasets/vinline/unified-dataset-for-skin-cancer-classification)
+
 
 ---
 
