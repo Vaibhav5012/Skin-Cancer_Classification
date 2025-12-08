@@ -44,7 +44,7 @@ It runs entirely on-device, ensuring:
 
 ### 🏗️ Parallel Encoder — Swin Transformer + U-Net  
 <p align="center">
-  <img width="2048" height="2048" alt="Gemini_Generated_Image_g8icyog8icyog8ic" src="https://github.com/user-attachments/assets/c1f48ce8-b32d-4974-9c0f-56500f62e1c6" />
+  <img width="2048" height="2048" alt="Gemini_Generated_Image_22vc1p22vc1p22vc" src="https://github.com/user-attachments/assets/8c091f3a-efef-4a5b-972c-0298f2638ba4" />
 
   <img src="https://github.com/user-attachments/assets/b7bb81d2-57c4-4d18-8ef8-2b648eed0ffa" 
        alt="System Architecture" 
